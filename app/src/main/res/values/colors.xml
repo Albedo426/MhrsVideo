@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+
+<resources>
+    <!-- For app theme -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#3f4149</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- For roster view -->
+    <color name="colorBackground">#E9E9E9</color>
+    <color name="colorTranslucentBackground">#64000000</color>
+
+    <!-- For captions view -->
+    <color name="colorMissingSpeaker">#929292</color>
+    <color name="colorPrimaryText">#004560</color>
+    <color name="colorSecondaryText">#00AEF7</color>
+    <color name="colorTextOnboarding">#343965</color>
+    <color name="colorButton">#4285F4</color>
+    <color name="colorLoginText">#11243D</color>
+    <color name="colorEdittextGradient">#FDFDFF</color>
+    <color name="colorEdittextStroke">#E6E6EB</color>
+    <color name="colorMainText">#333333</color>
+    <color name="colorDoctorListText">#120C45</color>
+    <color name="colorDoctorListTextSec">#797979</color>
+    <color name="colorDoctorDetailText">#1E1F20</color>
+    <color name="colorDoctorDetailbg">#F6F6F6</color>
+    <color name="colorDoctorAppbg">#F0F5F7</color>
+    <color name="colorDoctorAppbgSelected">#2574FF</color>
+</resources>

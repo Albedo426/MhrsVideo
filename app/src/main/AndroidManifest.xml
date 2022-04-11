@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amazonaws.services.chime.sdkdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".mhrs.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".mhrs.ui.videe_call_router.VideoCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.book_success.BookSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.book_appointment.BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.doctor_detail_screen.DoctorDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.doctor_list_sreen.DoctorListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.main_screen.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.boarding_screen.OnBoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mhrs.ui.login_screen.LoginActivity"
+            android:exported="false" />
+        <activity android:name=".mhrs.ui.splash_screen.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.MeetingActivity" />
+        <activity
+            android:name=".activity.TranscriptionConfigActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".activity.MeetingActivity" />
+
+        <service
+            android:name=".service.ScreenCaptureService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection"
+            android:stopWithTask="true" />
+    </application>
+
+</manifest>

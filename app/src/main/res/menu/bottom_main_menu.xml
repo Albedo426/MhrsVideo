@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Anasayfa"/>
+    <item
+        android:id="@+id/category_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Bildirimler"/>
+    <item
+        android:id="@+id/favorite_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Randevularım"/>
+
+    <item
+        android:id="@+id/account_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Profil"/>
+</menu>
